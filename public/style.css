@@ -1,0 +1,52 @@
+h1 {
+	color: blue;
+	text-transform: inherit;
+
+}
+
+h3 {
+	font-size: 30px;
+}
+
+#color {
+	font:  rtl normal 30px black Tahoma ;
+	padding-bottom: 25px;
+	
+
+}
+
+p {
+	font-size: 15px;
+
+	text-align: ltr;
+
+	font-style: oblique;
+
+	padding-bottom: 20px;
+
+	
+}
+
+.row {
+	float: Right ;
+	padding: 10px;
+	display: inline-block;
+	width: 300px;
+
+
+}
+
+.column {
+	display:inline-block;
+	
+}
+
+h3 {
+
+     border-style: solid ;
+     width: 200px;
+     padding: 5px;
+     margin: 10px;
+     border-color: red;
+
+}
