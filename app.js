@@ -4,7 +4,6 @@ const path = require('path');
 
 const app = express();
 
-//app.use(express.static('public'));
 
 
 console.log(__dirname);
@@ -19,7 +18,7 @@ app.use( express.static(path.join(__dirname,  'public')));
 //Routes
 
 app.use('/', require('./routes/index'));
-app.use('/users',  require('./routes/users'))
+app.use('/users', require('./routes/users'))
 
 
 const PORT = process.env.PORT || 8080;
